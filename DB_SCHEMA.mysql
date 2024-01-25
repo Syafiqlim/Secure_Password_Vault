@@ -1,0 +1,12 @@
+CREATE DATABASE 1day_1challenge_day17;
+
+USE 1day_1challenge_day17;
+
+CREATE TABLE User
+(
+    id INT NOT NULL AUTO_INCREMENT,
+    app VARCHAR(255) NOT NULL,
+    username VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
